@@ -1,0 +1,19 @@
+[project]
+name = "mypypackage"
+description = "Python project template"
+version = "0.1.0"
+requires-python = ">=3.8"
+authors = [
+    {name = "Changhyun Kwon", email = "chkwon@gmail.com"}
+]
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
