@@ -12,7 +12,7 @@ The dependency information with other package information is located in `pyproje
 
 ## Example 
 To test if `mypypackage` is installed correctly, run the following code *outside* this repo:
-```
+```python
 import mypypackage
 xyplot(0, 1, 10)
 ```
@@ -20,6 +20,5 @@ xyplot(0, 1, 10)
 ## Unit Test
 
 ```
-cd tests
-pytest
+pytest tests
 ```
